@@ -1,0 +1,14 @@
+id = "helloworld"
+version = "0.1.0"
+
+[package]
+name = "Hello, world!"
+authors = ["misaka10987 <misaka10987@outlook.com>"]
+description = "A simple *Hello, world!* package"
+license = "MIT"
+
+[dependencies]
+
+
+[install]
+
