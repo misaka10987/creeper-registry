@@ -1,0 +1,39 @@
+name: build-index
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Get Creeper source code
+        uses: actions/checkout@v6
+        with:
+          repository: misaka10987/creeper
+          path: ./.creeper
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Build Creeper
+        working-directory: ./.creeper
+        run: cargo build --release
+
+      - name: Build index
+        run: ./.creeper/target/release/creeper build-index ./package --output ./.index/index
+
+      - name: Compress index
+        working-directory: ./.index
+        run: tar --zstd -cvf ./index.tar.zst ./index
+      
+      - name: Upload compressed index
+        uses: actions/upload-artifact@v7
+        with:
+          name: index.tar.zst
+          path: ./.index/index.tar.zst
+          archive: false
