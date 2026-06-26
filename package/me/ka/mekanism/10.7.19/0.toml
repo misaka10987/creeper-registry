@@ -1,0 +1,19 @@
+id = "mekanism"
+version = "10.7.19"
+
+[package]
+name = "Mekanism"
+authors = []
+description = "A mod for Minecraft"
+license = "MIT"
+
+[dependencies]
+vanilla = "=1.21.1"
+neoforge = ">=21.1.194"
+
+
+[[install.mc-mod]]
+blake3 = "428cefa5ac1b68ce694431b3830d71780e42d7f31bc1fefe433125a4995e2e05"
+name = "https://cdn.modrinth.com/data/Ce6I4WUE/versions/5KzzycBT/Mekanism-1.21.1-10.7.19.85.jar"
+src = "https://cdn.modrinth.com/data/Ce6I4WUE/versions/5KzzycBT/Mekanism-1.21.1-10.7.19.85.jar"
+len = 11976009
