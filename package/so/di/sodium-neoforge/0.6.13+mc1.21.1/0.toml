@@ -1,0 +1,24 @@
+id = "sodium-neoforge"
+version = "0.6.13+mc1.21.1"
+
+[dependencies]
+vanilla = ">=1.21.1"
+neoforge = ">=21.1.82"
+
+# embeddium is currently not in registry
+# [[conflicts]]
+# embeddium = ">=0.0.1"
+
+[package]
+name = "Sodium (NeoForge Edition)"
+authors = ["JellySquid (jellysquid3)", "IMS212"]
+description = """
+Sodium is a powerful rendering engine for Minecraft which improves frame rates and reduces lag spikes.
+"""
+license = "LicenseRef-Polyform-Shield-1.0.0"
+
+[[install.mc-mod]]
+blake3 = "0121f52b53af9cea6e00b14362617a5a1b9bc75fa92c69d51c96a0815ad25703"
+name = "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar"
+src = "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar"
+len = 1162994

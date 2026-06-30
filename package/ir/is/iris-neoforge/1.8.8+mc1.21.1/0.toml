@@ -1,0 +1,23 @@
+id = "iris-neoforge"
+version = "1.8.8+mc1.21.1"
+
+[dependencies]
+# vanilla = ">=1.21, <1.21.1"
+vanilla = ">=1.21"
+
+# [[conflicts]]
+# embeddium = ">=0.0.1"
+
+[package]
+name = "Iris (NeoForge Edition)"
+authors = ["coderbot", "IMS212"]
+description = """
+Iris is a modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs.
+"""
+license = "LGPL-3.0-only"
+
+[[install.mc-mod]]
+blake3 = "8621517971027dd81f501b01da824ea75c2b0b712b07683babfa3e5a3a10af21"
+name = "https://cdn.modrinth.com/data/YL57xq9U/versions/oXIoDcGE/iris-neoforge-1.8.8%2Bmc1.21.1.jar"
+src = "https://cdn.modrinth.com/data/YL57xq9U/versions/oXIoDcGE/iris-neoforge-1.8.8%2Bmc1.21.1.jar"
+len = 2437216
