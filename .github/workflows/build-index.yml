@@ -12,20 +12,23 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Get Creeper source code
-        uses: actions/checkout@v6
-        with:
-          repository: misaka10987/creeper
-          path: ./.creeper
+      # - name: Get Creeper source code
+      #   uses: actions/checkout@v6
+      #   with:
+      #     repository: misaka10987/creeper
+      #     path: ./.creeper
 
-      - uses: dtolnay/rust-toolchain@stable
+      # - uses: dtolnay/rust-toolchain@stable
 
-      - name: Build Creeper
-        working-directory: ./.creeper
-        run: cargo build --release
+      # - name: Build Creeper
+      #   working-directory: ./.creeper
+      #   run: cargo build --release
+
+      - name: Install creeper CLI
+        run: cargo install --git https://github.com/misaka10987/creeper --branch main
 
       - name: Build index
-        run: ./.creeper/target/release/creeper build-index ./package --output ./.index/index
+        run: creeper build-index ./package --output ./.index/index
 
       - name: Compress index
         working-directory: ./.index
