@@ -1,5 +1,7 @@
 +++
 title = "格式"
+
+[sidebar]
 order = 1
 +++
 

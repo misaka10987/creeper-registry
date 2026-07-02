@@ -1,5 +1,7 @@
 +++
 title = "使用工具"
+
+[sidebar]
 order = 2
 +++
 
