@@ -1,0 +1,19 @@
+id = "xaeroworldmap-neoforge"
+version = "1.41.2"
+
+[dependencies]
+neoforge = ">=21.0.110-beta, <21.2.0"
+vanilla = ">=1.21, <1.21.2"
+# xaerolib = ">=1.1.0"
+
+[package]
+name = "Xaero's World Map (NeoForge Edition)"
+authors = ["xaero96"]
+description = "A self-writing fullscreen map which also works as an add-on to Xaero's Minimap."
+license = "NOASSERTION"
+
+[[install.mc-mod]]
+blake3 = "97822f1d81a4feaf32ec98b9b571bc3babbd3b5e7209b958d6a9b578ca83d595"
+name = "xaeroworldmap-neoforge-1.21.1-1.41.2.jar"
+src = "https://cdn.modrinth.com/data/NcUtCpym/versions/fHsLkLT4/xaeroworldmap-neoforge-1.21.1-1.41.2.jar"
+len = 1387921

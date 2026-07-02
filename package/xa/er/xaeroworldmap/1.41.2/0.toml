@@ -1,0 +1,14 @@
+id = "xaeroworldmap"
+version = "1.41.2"
+
+[package]
+name = "Xaero's World Map"
+authors = ["xaero96"]
+description = "A self-writing fullscreen map which also works as an add-on to Xaero's Minimap."
+license = "NOASSERTION"
+
+[dependencies]
+vanilla = ">=1.21, <1.21.2"
+
+[[either-dependency]]
+xaeroworldmap-neoforge = "=1.41.2"
