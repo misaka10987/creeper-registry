@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push: {}
+  pull_request: {}
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install creeper CLI
+        run: cargo install creeper@1.0.0-alpha.6
+
+      - name: Build index
+        run: creeper build-index ./package
+
+  build-site:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Build site
+        working-directory: ./site
+        run: bun install && bun run build
