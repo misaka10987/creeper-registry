@@ -1,0 +1,18 @@
+id = "guideme"
+version = "21.1.16"
+
+[package]
+name = "GuideME"
+description = "GuideME offers the foundation for your mods or modpacks guidebook."
+authors = ["shartte"]
+license = "LGPL-3.0-only"
+
+[dependencies]
+neoforge = ">=21.1.1"
+vanilla = "=1.21.1"
+
+[[install.mc-mod]]
+blake3 = "dc1df5dbe0d6f38dadf63bffa736daffd2ef8157179f7e9ef7fa7d39d1e322a7"
+name = "guideme-21.1.16.jar"
+src = "https://cdn.modrinth.com/data/Ck4E7v7R/versions/bFr2FBaJ/guideme-21.1.16.jar"
+len = 9309277

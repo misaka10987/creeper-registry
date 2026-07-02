@@ -1,0 +1,14 @@
+id = "ae2"
+version = "19.2.17"
+
+[dependencies]
+vanilla = "=1.21.1"
+
+[[either-dependency]]
+ae2-neoforge = "=19.2.17"
+
+[package]
+name = "Applied Energistics 2"
+authors = ["Team AppliedEnergistics"]
+description = "A Mod about Matter, Energy and using them to conquer the world..."
+license = "LGPL-3.0-only"
