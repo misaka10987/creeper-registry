@@ -1,0 +1,16 @@
+id = "jei"
+version = "19.27.0"
+
+[dependencies]
+vanilla = ">=1.21, <=1.21.1"
+
+[[either-dependency]]
+jei-neoforge = "=19.27.0"
+
+[package]
+name = "Just Enough Items"
+authors = ["mezz"]
+description = """
+JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.
+"""
+license = "MIT"

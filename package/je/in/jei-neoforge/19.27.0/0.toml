@@ -1,0 +1,20 @@
+id = "jei-neoforge"
+version = "19.27.0"
+
+[dependencies]
+neoforge = ">=21.0.118-beta"
+vanilla = ">=1.21, <=1.21.1"
+
+[package]
+name = "Just Enough Items (NeoForge Edition)"
+authors = ["mezz"]
+description = """
+JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.
+"""
+license = "MIT"
+
+[[install.mc-mod]]
+blake3 = "10aae87436622374eb40608fd9f6c5d98dd6e6aba81195c1b7e2168c713f8fd4"
+name = "jei-1.21.1-neoforge-19.27.0.344.jar"
+src = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/BTB3Mx37/jei-1.21.1-neoforge-19.27.0.344.jar"
+len = 1536942
