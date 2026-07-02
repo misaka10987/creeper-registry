@@ -1,0 +1,14 @@
+id = "create"
+version = "6.0.10"
+
+[dependencies]
+vanilla = "=1.21.1"
+
+[[either-dependency]]
+create-neoforge = "=6.0.10"
+
+[package]
+name = "Create"
+authors = ["simibubi"]
+description = "Technology that empowers the player."
+license = "NOASSERTION"

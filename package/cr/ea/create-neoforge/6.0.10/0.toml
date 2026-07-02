@@ -1,0 +1,24 @@
+id = "create-neoforge"
+version = "6.0.10"
+
+[dependencies]
+# flywheel = ">=1.0.0, <2.0"
+neoforge = ">=21.1.219"
+# ponder = ">=1.0.82"
+vanilla = "=1.21.1"
+
+[conflicts]
+# palladium = "*"
+# radium = "*"
+
+[package]
+name = "Create (NeoForge Edition)"
+authors = ["simibubi"]
+description = "Technology that empowers the player."
+license = "NOASSERTION"
+
+[[install.mc-mod]]
+blake3 = "a36d08910cfe29bf1a87068c56e4642ca81424d71fd781e22ed23e198862e423"
+name = "create-1.21.1-6.0.10.jar"
+src = "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar"
+len = 19123767
