@@ -11,10 +11,6 @@ hidden = true
 title = "Creeper 包注册中心"
 tagline = "Minecraft 模组，资源包，光影包仓库，为 <a href='https://github.com/misaka10987/creeper'>creeper</a> 建立"
 
-# [hero.image]
-# light = "@/assets/icon-light.webp"
-# dark = "@/assets/icon-dark.webp"
-
 [[hero.actions]]
 text = "查阅帮助文档"
 link = "/format"
@@ -27,30 +23,17 @@ icon = "external"
 variant = "minimal"
 +++
 
-import { Card, CardGrid } from '@astrojs/starlight/components'
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components'
 
-## 行动
-
-<CardGrid stagger>
-  <a
+<CardGrid>
+  <LinkCard
+    title="创建软件包"
+    description="通过 GitHub Pull Request 向 Creeper Registry 作出贡献"
     href="https://github.com/misaka10987/creeper-registry/new/main/package"
-    style="color: inherit; text-decoration: none;"
-  >
-    <Card title="创建软件包" icon="add-document">
-      通过 GitHub Pull Request 向 Creeper Registry 作出贡献！
-    </Card>
-  </a>
-  {/* <Card title="加入聊天" icon="comment">
-    加入我们的开发者 [QQ群](https://qm.qq.com/q/RIW4AsfeOC) 以跟上最新消息
-  </Card>
-  <Card title="学习 Starlight" icon="open-book">
-    本站采用 [Starlight](https://starlight.astro.build/zh-cn/) 编写，
-    阅读文档以了解使用方法
-  </Card> */}
-  {/* <Card title="分享本站" icon="seti:license">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
-  </Card> */}
-  {/* <Card title="PDF 版本" icon="seti:pdf">
-    查看如何将本站 [打包为 PDF 文件](https://github.com/Linkerin/starlight-to-pdf)
-  </Card> */}
+  ></LinkCard>
+  <LinkCard
+    title="加入聊天"
+    description="加入我们的 QQ 群获取最新消息"
+    href="https://qm.qq.com/q/xE8M6JdsSk"
+  ></LinkCard>
 </CardGrid>
