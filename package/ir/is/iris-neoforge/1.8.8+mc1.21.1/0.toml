@@ -4,6 +4,7 @@ version = "1.8.8+mc1.21.1"
 [dependencies]
 # vanilla = ">=1.21, <1.21.1"
 vanilla = ">=1.21"
+neoforge = "*"
 
 # [[conflicts]]
 # embeddium = ">=0.0.1"
