@@ -59,6 +59,16 @@ const main = async () => {
   console.log(
     `已转换 ${converted} 个 TOML -> ${path.relative(repoRoot, outRoot)}`,
   )
+
+  await fs.writeFile(
+    path.join(repoRoot, 'site', 'public', 'package-count'),
+    `${converted}`,
+  )
+
+  await fs.writeFile(
+    path.join(repoRoot, 'site', 'public', 'package-count.json'),
+    `${converted}`,
+  )
 }
 
 await main()

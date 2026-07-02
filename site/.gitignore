@@ -1,4 +1,6 @@
 public/package
+public/package-count
+public/package-count.json
 
 # build output
 dist/
