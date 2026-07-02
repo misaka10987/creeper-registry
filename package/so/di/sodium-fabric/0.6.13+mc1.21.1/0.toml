@@ -1,0 +1,44 @@
+id = "sodium-fabric"
+version = "0.6.13+mc1.21.1"
+
+[dependencies]
+fabric = ">=0.16.0"
+vanilla = "*"
+
+[conflicts]
+# betterend = "<=21.0.11"
+# betterfpsdist = "*"
+# bobby = "<5.2.4"
+# canvas = "*"
+# chunksfadein = "<2.0.2-1.21.2"
+# cull-less-leaves = "<=1.3.0"
+# cullleaves = "<=3.4.0-fabric"
+# custom_hud = "<3.4.2"
+# embeddium = "*"
+# farsight = "*"
+# iceberg = "<1.2.7"
+# iris = "<1.8.7"
+# moreculling = "<1.0.4"
+# movingelevators = "<=1.4.7"
+# notenoughcrashes = "<4.4.8"
+# noxesium = "<2.3.3"
+# ocrenderfix_sodium = "*"
+# optifabric = "*"
+# reeses-sodium-options = "<1.8.0"
+# simply-no-shading = "<7.6.2"
+# sodium-blendingregistry = "*"
+# sodium-extra = "<0.6.0"
+# sspb = "<4.0.0"
+# vulkanmod = "*"
+
+[package]
+name = "Sodium (Fabric Edition)"
+authors = ["JellySquid (jellysquid3)"]
+description = "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues"
+license = "LicenseRef-Polyform-Shield-1.0.0"
+
+[[install.mc-mod]]
+blake3 = "672742135c84ef55bc5d1f8cdc18c530a33f4273cec8d327ac3eb8ffbbb2c520"
+name = "https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
+src = "https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
+len = 1297761
